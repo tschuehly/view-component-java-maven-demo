@@ -25,11 +25,21 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+
+        <!--        Usage with jitpack repo-->
         <dependency>
-            <groupId>de.github.tschuehly</groupId>
+            <groupId>com.github.tschuehly</groupId>
             <artifactId>thymeleaf-view-component</artifactId>
-            <version>0.1.6</version>
+            <version>0.2.0</version>
         </dependency>
+
+
+<!--        Usage with local maven repo-->
+<!--        <dependency>-->
+<!--            <groupId>de.tschuehly</groupId>-->
+<!--            <artifactId>thymeleaf-view-component</artifactId>-->
+<!--            <version>0.2.0</version>-->
+<!--        </dependency>-->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
