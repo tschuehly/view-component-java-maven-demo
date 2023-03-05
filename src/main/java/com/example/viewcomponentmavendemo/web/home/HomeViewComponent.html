@@ -1,0 +1,14 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+
+
+<div th:text="${helloWorld}"></div><br>
+
+<strong th:text="${coffee}"></strong>
+
+<div th:utext="${{@parameterViewComponent.render(office)}}"></div>
+<!--<div th:utext="${{@parameterViewComponent.render(@exampleService.getOfficeHours())}}"></div>-->
+<br>
+
+</body>
+</html>
